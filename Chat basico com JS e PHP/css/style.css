@@ -1,0 +1,84 @@
+#lista {
+  padding: 15px;
+  display: inline;
+  min-width: 40vw;
+  float: left;
+  overflow: visible;
+  min-height: 80vh;
+}
+#form-chat {
+  padding: 15px;
+  display: inline;
+  min-width: 40vw;
+  float: right;
+  min-height: 80vh;
+  position: fixed;
+  margin: auto;
+  overflow: hidden !important;
+}
+
+#form-chat input,
+#form-chat textarea {
+  width: 100%;
+}
+
+.balao-chat {
+  background-color: rgba(1, 187, 255, 0.46);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.balao-chat span {
+  display: block;
+  text-align: end;
+}
+body {
+  background: rgb(5, 5, 5);
+  color: white;
+}
+
+#news-message {
+  width: 50px;
+  height: 50px;
+  background: rgb(4, 88, 143);
+  border-radius: 50%;
+position: fixed;
+  display: inline-grid;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#enviar{
+    background: #1e9cd9;
+    border: none;
+    color: white;
+    height: 44px;
+    font-size: 1.2em;
+    cursor: pointer;
+   
+}
+
+#enviar:hover{
+    transition: all, 0.5s;
+    background: #115c82;
+}
+
+input, textarea{
+    background-color: rgb(233, 236, 250);
+    min-height: 35px;
+    border: none;
+    
+}
+
+.balao-chat h2{
+    margin:0;
+}
+
+.botao-fechar{
+    cursor: pointer;
+}
